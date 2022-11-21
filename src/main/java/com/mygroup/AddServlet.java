@@ -8,6 +8,7 @@ public class AddServlet {
 	
 	@RequestMapping("/add")
 	public String add() {
+		System.out.println("You are in AddServlet class");
 		return "display.jsp";
 	}
 }
