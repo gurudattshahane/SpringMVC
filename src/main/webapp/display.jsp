@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h1>Hi, there!</h1>
+	<p>Result: <%= request.getAttribute("result")%></p>
 </body>
 </html>
